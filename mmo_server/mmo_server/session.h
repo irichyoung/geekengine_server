@@ -31,7 +31,7 @@ namespace server
 	class session
 	{
 	private:
-		int			    	    _talk_num;
+		int			_talk_num;
 		int                         _load;
 		talk      _talk[PER_SESSION_TALK];
 		WSAEVENT _event[PER_SESSION_TALK];
