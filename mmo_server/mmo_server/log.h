@@ -81,7 +81,7 @@ public:
 Mutex Log::m_mutex;
 #endif
 #ifdef MUTEX
-Mutex Log::m_mutex = CreateMutex(NULL,false,"LOG");
+Mutex Log::m_mutex = CreateMutex(NULL,false,(LPCWSTR)"LOG");
 #endif
 Log* Log::instance = new Log();
 ofstream Log::m_log;

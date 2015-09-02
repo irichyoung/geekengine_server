@@ -18,12 +18,6 @@
     <ClCompile Include="entity.h">
       <Filter>头文件</Filter>
     </ClCompile>
-    <ClCompile Include="Move.pb.cc">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="main.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="buffer.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
@@ -33,11 +27,11 @@
     <ClCompile Include="selector.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="session.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Move.pb.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
     <ClInclude Include="buffer.h">
       <Filter>头文件</Filter>
     </ClInclude>

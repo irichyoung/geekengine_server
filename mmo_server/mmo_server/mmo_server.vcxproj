@@ -88,16 +88,14 @@
     <ClCompile Include="buffer.cpp" />
     <ClCompile Include="entity.h" />
     <ClCompile Include="logic.cpp" />
-    <ClCompile Include="Move.pb.cc" />
-    <ClCompile Include="main.cpp" />
     <ClCompile Include="selector.cpp" />
+    <ClCompile Include="session.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="buffer.h" />
     <ClInclude Include="commands.h" />
     <ClInclude Include="log.h" />
     <ClInclude Include="logic.h" />
-    <ClInclude Include="Move.pb.h" />
     <ClInclude Include="packet.h" />
     <ClInclude Include="session.h" />
     <ClInclude Include="selector.h" />
